@@ -66,7 +66,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
     function create_element() {
         const li = document.createElement("li");
-        const text_node = document.createTextNode("this is list item " + (number_of_created_elements + 1));
+        const text_node = document.createTextNode("this is list item " + (number_of_created_elements + 1) );
         li.appendChild(text_node);
         list_items[number_of_created_elements] = li;
         ul.appendChild(li);
